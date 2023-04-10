@@ -11,16 +11,23 @@ function genDivs(x,j){
         const column = document.createElement('div');
         column.classList.add('theColumns');
         row.appendChild(column)
-    }
+        column.addEventListener('mouseover',(event) => {
+        event.target.style.background = "black";
+});
+}
                     container.appendChild(row);
 
 }
 
+
 }
+
+
+
+
+
 genDivs(16,16)
 
-// const div = document.createElement('div');
-// div.classList.add('theDiv');
-// div.textContent = "this is a div"
+
     
 
