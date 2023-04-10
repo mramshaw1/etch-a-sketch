@@ -1,0 +1,15 @@
+.container{
+    border: black solid 1px;
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+}
+
+.theRows{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.theColumns{
+    display: flex;
+border: 1px solid black;}
