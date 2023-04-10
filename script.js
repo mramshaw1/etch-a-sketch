@@ -1,19 +1,19 @@
 
 function genDivs(x,j){
     const container = document.querySelector('.container');
+    
+    
     for(let i = 0; i<x; i++){
         const row = document.createElement('div');
         row.classList.add('theRows');
-        row.textContent = "This is the row";
-    
+
     for(let y = 0; y<j; y++){
         const column = document.createElement('div');
         column.classList.add('theColumns');
-        column.textContent = "I'm a column"
         row.appendChild(column)
     }
-    
-            container.appendChild(row);
+                    container.appendChild(row);
+
 }
 
 }
