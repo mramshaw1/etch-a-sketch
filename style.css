@@ -1,15 +1,25 @@
+
+
 .container{
-    border: black solid 1px;
-    display: flex;
-    flex: 1;
-    /* flex-direction: column; */
+ display: table;
+ width: 960px;
+ height: 960px;
 }
 
-.theRows{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
+.row{
+    display: table-row
 }
+
+
+
 .theColumns{
-    display: flex;
-border: 1px solid black;}
+display: table-cell;
+height: 25px;
+width: 25px;
+border: 1px solid;
+background: white;
+}
+
+.button{
+    
+}
