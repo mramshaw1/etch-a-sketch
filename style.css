@@ -1,25 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.header{
+    border: 1px solid;
+
+}
 
 .container{
- display: table;
- width: 960px;
- height: 960px;
-}
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
 
+}
 .row{
-    display: table-row
+    display: flex;
+    flex: 1
 }
 
-
-
-.theColumns{
-display: table-cell;
-height: 25px;
-width: 25px;
-border: 1px solid;
-background: white;
+.column{
+    border: 1px solid;
+    background: white;
+    flex:1
 }
 
-.button{
-    
+.footer{
+    display: flex;
+    border: 1px solid;
+    justify-content:  space-between;
+    width: 500px;
+    align-items: center;
 }
+
